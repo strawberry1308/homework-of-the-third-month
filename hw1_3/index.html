@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+<div class="form">
+    <div class="wrapper">
+      <h2>Login</h2>
+      <form>
+          <div class="form-box">
+              <input type="text" name="" required="" id="username" placeholder=""/>
+              <label>Email (********@******)</label>
+          </div>
+          <div class="form-box">
+              <input type="password" name="" required="" id="password1" placeholder=""/>
+              <label>Password (min 8 symbols A-a 0-9 & '-')</label>
+              <img src="images/hide.svg" alt="Show Password" class="show">
+              <img src="images/eye.svg" alt="Hide Password" class="hide">
+          </div>
+          <div class="form-box">
+              <input type="password" name="" required="" id="password2" placeholder=""/>
+              <label>Confirm password</label>
+              <img src="images/hide.svg" alt="Show Password" class="show">
+              <img src="images/eye.svg" alt="Hide Password" class="hide">
+          </div>
+          <a href="#" id="btn">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              Submit
+          </a>
+      </form>
+    </div>
+    <div class="result"></div>
+</div>
+  </body>
+  <script src="app.js"></script>
+</html>
